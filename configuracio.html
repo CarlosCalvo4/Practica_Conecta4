@@ -20,7 +20,26 @@
         </nav>
     </header>
     <main>
-
+        <p>Seleccioneu la configuració que voleu en el vostre joc</p>
+        <form>
+            <label for="idioma">Idioma de la pàgina</label>
+            <select name="idioma" id="idioma">
+                <option value="cat" selected>Català</option>
+                <option value="cast">Castellà</option>
+                <option value="ing">Anglès</option>
+            </select>
+            <label for="color1">Color de la fitxa 1</label>
+            <input type="color" name="color1" id="color1">
+            <label for="color2">Color de la fitxa 2</label>
+            <input type="color" name="color2" id="color2">
+            <p>Seleccioni la quantitat de jugadors</p>
+            <label for="1jugador">1 jugador</label>
+            <input type="radio" name="jugadors" id="1jugador">
+            <label for="2jugadors">2 jugadors</label>
+            <input type="radio" name="jugadors" id="2jugadors">
+            <input type="submit" name="aplicar" id="aplicar" value="Aplicar">
+            <input type="reset" name="cancelar" id="cancelar" value="Cancelar">
+        </form>
     </main>
     <footer>
 
