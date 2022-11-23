@@ -20,7 +20,26 @@
         </nav>
     </header>
     <main>
-
+        <form action="https://theteacher.codiblau.com/llmqs/practica/contacte" method="post">
+            <label for="nom">Nom</label>
+            <input type="text" name="nom" id="nom" maxlength="30" minlength="2" placeholder="James Johnson" required>
+            <label for="email">Email</label>
+            <input type="mail" name="email" id="email" placeholder="exemple@gmail.com">
+            <label for="tipus">Tipus de consulta</label>
+            <select name="tipus" id="tipus">
+                <option value="CONSULTA">Consulta general</option>
+                <option value="ERROR">Error</option>
+                <option value="Millores">Millores</option>
+                <option value="SUSCRIBE">Inscipció anual</option>
+            </select>
+            <label for="telefon">Telèfon de l'usuari</label>
+            <input type="tel" name="telefon" id="telefon" placeholder="652973338">
+            <label for="datanaixement">Data de naixement</label>
+            <input type="date" name="datanaixement" id="datanaixement">
+            <label for="message">Missatge de l'usuari</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <input type="submit" name="Enviar" value="Enviar">
+        </form>
     </main>
     <footer>
 
