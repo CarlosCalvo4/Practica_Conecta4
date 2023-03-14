@@ -68,6 +68,34 @@ p {
     line-height: 1.5;
 }
 
+.board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: #cfcfcf;
+    border: 2px solid #555;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.board:hover {
+    transform: rotate(50deg);
+}
+
 footer {
     background-color: #555;
     color: #FFF;
